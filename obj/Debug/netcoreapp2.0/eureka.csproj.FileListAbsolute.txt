@@ -1,0 +1,10 @@
+C:\Users\marym\Documents\Dojo\netCore\eureka\bin\Debug\netcoreapp2.0\eureka.deps.json
+C:\Users\marym\Documents\Dojo\netCore\eureka\bin\Debug\netcoreapp2.0\eureka.runtimeconfig.json
+C:\Users\marym\Documents\Dojo\netCore\eureka\bin\Debug\netcoreapp2.0\eureka.runtimeconfig.dev.json
+C:\Users\marym\Documents\Dojo\netCore\eureka\bin\Debug\netcoreapp2.0\eureka.dll
+C:\Users\marym\Documents\Dojo\netCore\eureka\bin\Debug\netcoreapp2.0\eureka.pdb
+C:\Users\marym\Documents\Dojo\netCore\eureka\obj\Debug\netcoreapp2.0\eureka.csproj.CoreCompileInputs.cache
+C:\Users\marym\Documents\Dojo\netCore\eureka\obj\Debug\netcoreapp2.0\eureka.AssemblyInfoInputs.cache
+C:\Users\marym\Documents\Dojo\netCore\eureka\obj\Debug\netcoreapp2.0\eureka.AssemblyInfo.cs
+C:\Users\marym\Documents\Dojo\netCore\eureka\obj\Debug\netcoreapp2.0\eureka.dll
+C:\Users\marym\Documents\Dojo\netCore\eureka\obj\Debug\netcoreapp2.0\eureka.pdb

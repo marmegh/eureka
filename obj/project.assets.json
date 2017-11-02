@@ -13230,7 +13230,8 @@
       "Microsoft.Extensions.Options.ConfigurationExtensions >= 2.0.0",
       "Microsoft.NETCore.App >= 2.0.0",
       "MySql.Data >= 7.0.7-*",
-      "Pomelo.EntityFrameworkCore.MySql >= 2.0.0-rtm-10062"
+      "Pomelo.EntityFrameworkCore.MySql >= 2.0.0-rtm-10062",
+      "microsoft.aspnetcore.identity.entityframeworkcore >= 2.0.0"
     ]
   },
   "packageFolders": {
@@ -13280,6 +13281,10 @@
             "autoReferenced": true
           },
           "Microsoft.AspNetCore.All": {
+            "target": "Package",
+            "version": "2.0.0"
+          },
+          "microsoft.aspnetcore.identity.entityframeworkcore": {
             "target": "Package",
             "version": "2.0.0"
           },
