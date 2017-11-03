@@ -7,15 +7,16 @@
 
 @if(@ViewBag.errors == null)
 {
-    <h1>Wedding Planning</h1>
+    <h1>Welcome!</h1>
 }
 @if(@ViewBag.errors != null)
 {
+    <h1>Welcome!</h1>
     <ul>
         <li>@ViewBag.errors</li>
     </ul>
 }
-
+<h2>Login</h2>
 <form asp-controller = "Home" asp-action="login" method = "POST">
     <h5>
         <label asp-for="login.lemail"></label>
@@ -29,7 +30,7 @@
     </h5>
     <button type="submit">Login</button>
 </form>
-
+<h2>Register</h2>
 <form asp-controller = "Home" asp-action="register" method = "POST">
     <h5>
         <label asp-for="reg.first"></label>

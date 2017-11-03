@@ -1,0 +1,16 @@
+@{
+    ViewData["Title"] = "About";
+}
+@using eureka.Models;
+@using System.Linq;
+@using System.Collections.Generic;
+@using System;
+
+<h4>Name: @ViewBag.user.first</h4>
+<h4>Alias: @ViewBag.user.alias</h4>
+<h4>Email: @ViewBag.user.email</h4>
+
+<br></br>
+
+<h4>Total Number of Posts: @ViewBag.user.ideas.Count</h4>
+<h4>Total Number of Likes: @ViewBag.user.likes.Count</h4>

@@ -7,11 +7,11 @@ namespace eureka.Models
     public class RegistrationViewModel: BaseEntity
     {
         [Required]
-        [Display(Name = "First Name")]
+        [Display(Name = "Name")]
         public string first { get; set; }
 
         [Required]
-        [Display(Name = "Last Name")]
+        [Display(Name = "alias")]
         public string last { get; set; }
 
         [Required]

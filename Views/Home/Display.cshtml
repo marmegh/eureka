@@ -1,0 +1,27 @@
+@{
+    ViewData["Title"] = "About";
+}
+@using eureka.Models;
+@using System.Linq;
+@using System.Collections.Generic;
+@using System;
+
+@ViewBag.idea.origin.alias says: @ViewBag.idea.idea
+<h4>People who liked this post:</h4>
+    <table>
+        <thead>
+            <th>Alias</th>
+            <th>Name</th>
+        </thead>
+@foreach(var like in @ViewBag.AllLikes)
+{
+    if(@like.ideaid == @ViewBag.idea.ideaid)
+    {
+        <tbody>
+            <td><a href="/profile/@like.userID">@like.liker.alias</a></td>
+            <td>@like.liker.first</td>
+        </tbody>
+    }
+    
+}
+</table>
