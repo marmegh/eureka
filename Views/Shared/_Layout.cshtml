@@ -30,9 +30,8 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a asp-area="" asp-controller="Home" asp-action="Dashboard">Home</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Do">Do Stuff</a></li>
-                    @if(@ViewBag.uname != null)
+                    <li><a asp-area="" asp-controller="Home" asp-action="Dashboard">Bright Ideas</a></li>
+                    @if(@ViewBag.uname != null || @ViewBag.users != null)
                     {
                     <li><a asp-area="" asp-controller="Home" asp-action="Logout">Logout</a></li>
                     }
